@@ -726,6 +726,12 @@ img {
   margin-bottom: 10px;
   gap: 4px;
 }
+.form-filed-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 4px;
+}
 .input {
   border: none;
   outline: none;
@@ -769,7 +775,6 @@ img {
   resize: none;
   border: 1px solid var(--border-color-form);
   border-radius: 4px;
-  margin-bottom: 10px;
   padding: 16px 12px;
   transition: border-color var(--animation);
 }

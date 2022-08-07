@@ -505,6 +505,7 @@ img {
 }
 .form-footer {
   margin-left: 23px;
+  padding-top: 12px;
 }
 .form-title-footer {
   font-weight: 700;
@@ -514,7 +515,6 @@ img {
   text-transform: uppercase;
   color: var(--primay-bg-color);
   margin-bottom: 20px;
-  padding-top: 12px;
 }
 .form-con-footer {
   display: flex;

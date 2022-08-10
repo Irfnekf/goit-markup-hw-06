@@ -810,10 +810,12 @@ img {
 
 .checkbox:checked ~ .icon-check {
   opacity: 1;
-  fill: var(--button-link-primary);
 }
 .checkbox:checked + .icon-no-active {
-  opacity: 0;
+  border-color: var(--button-link-primary);
+}
+.checkbox:focus + .icon-no-active {
+  border-color: var(--button-link-primary);
 }
 .form-icon {
   font-weight: 400;
@@ -829,14 +831,18 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: opacity var(--animation);
+  fill: var(--button-link-primary);
 }
 .icon-no-active {
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--title-text-color);
+  border-radius: 2px;
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  transition: opacity var(--animation);
-  opacity: 1;
+  transition: border-color var(--animation);
 }
 .checkbox-link {
   color: var(--button-link-primary);

@@ -811,9 +811,7 @@ img {
 .checkbox:checked ~ .icon-check {
   opacity: 1;
 }
-.checkbox:checked + .icon-no-active {
-  border-color: var(--button-link-primary);
-}
+.checkbox:checked + .icon-no-active,
 .checkbox:focus + .icon-no-active {
   border-color: var(--button-link-primary);
 }
